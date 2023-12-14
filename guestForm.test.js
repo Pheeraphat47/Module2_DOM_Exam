@@ -123,3 +123,4 @@ test('should add a new guest', () => {
     ).toContain(`${fnValue} ${lnValue}`)
   }
 })
+

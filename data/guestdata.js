@@ -1,5 +1,5 @@
-import { GuestManagement } from '../lib/GuestManagement.js'
-// const GuestManagement = require('../lib/GuestManagement.js')
+// import { GuestManagement } from '../lib/GuestManagement.js'
+const GuestManagement = require('../lib/GuestManagement.js')
 
 const createGuestList = () => {
   const guestList = new GuestManagement()
@@ -25,5 +25,5 @@ const createGuestList = () => {
   guestList.addNewGuest('Harper', 'Harris')
   return guestList
 }
-// module.exports = createGuestList
-export { createGuestList }
+module.exports = createGuestList
+// export { createGuestList }
